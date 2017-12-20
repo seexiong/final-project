@@ -1,0 +1,97 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/*end of browser reset*/
+
+#container{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+aside li{
+	list-style-type: none;
+	line-height: 2em;
+}
+
+aside{
+	flex: 1 1 20%;
+	font-family: 'Chewy', cursive;
+	font-size: 20px;
+}
+
+#products{
+	flex: 2 2 70%;
+	margin-left: 30px;
+}
+
+.best{
+	margin-top: 35px;
+}
+
+.display img{
+	width: 20%;
+	height: auto;
+	padding: 10px;
+	margin-bottom: 40px;
+	border: 1px solid #48546e;
+}
+
+.display{
+	position: relative;
+	display: inline;
+}
+
+.image{
+	opacity: 1;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%)
+	z-index: 2;
+}
+
+.display:hover .image{
+	opacity: 0.3;
+}
+
+.display:hover .middle{
+	opacity: 1;
+}
+
+.text{
+	background-color: #c9c9c9;
+	color: white;
+	padding: 4px;
+	width: 150px;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Chewy', cursive;
+	font-size: 20px;
+}
+
+h1{
+	font-family: 'Homemade Apple', cursive;
+}
+
+p{
+	text-align: center;
+	font-family: verdana;
+	font-size: 12px;
+}

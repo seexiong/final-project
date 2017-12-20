@@ -1,0 +1,85 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/*end of browser reset*/
+
+
+body{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header{
+	background-image: linear-gradient(to bottom, #f6dbe0, white);
+	padding-right: 20px;
+}
+
+footer{
+	background-image: linear-gradient(to top, #f6dbe0, white);
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+
+#logo{
+	width: 100px;
+	height: 100px;
+	border: none;
+	vertical-align: middle;
+	margin-top: 10px;
+}	
+
+.top{
+	display: inline;
+	margin-left: 35%;
+}
+
+nav{
+	text-align: center;
+	font-family: 'Chewy', cursive;
+	font-size: 20px;
+}
+
+input[type=text] {
+	width: 400px;
+	margin-left: 10px;
+	padding: 5px;
+	border-radius: 0px;
+	border: 1px solid black;
+	height: 30px;
+}
+
+input[type=text]:focus{
+	background-color: #e9e9e9;
+}
+
+#banner {
+	width: 100%;
+	height: auto;
+	border: none;
+	margin: 10px 0px 10px 10px;
+}
+
+
+a:link{
+	color: #48546e;
+}
+
+a:visited{
+	color: #ccc;
+}
+
+a:hover{
+	color: #f9c519;
+}
+
+
+address{
+	text-align: center;
+}

@@ -1,0 +1,50 @@
+fieldset{
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 2px dashed #f9c519;
+}
+
+legend{
+	font-family: 'Homemade Apple', cursive;
+	font-size: 25px;
+}
+
+p{
+	margin: 12px;
+}
+
+label{
+	font-family: 'Chewy', cursive;
+	font-size: 20px;
+}
+
+.account label{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+	width: 150px;
+	margin-left: 15px;
+}
+
+input[type=tel]{
+	margin-left: 10px;
+}
+
+input[type=tel], input[type=text]{
+	border-radius: 0px;
+	border: 1px solid black;
+	height: 30px;
+}
+
+input[type=tel]:focus{
+	background-color: #e9e9e9;
+}
+
+input[type=submit]{
+	margin-left: 31%;
+	padding: 5px 10px;
+	background: linear-gradient(to bottom, #e9e9e9, #c9c9c9);
+	font-family: 'Chewy', cursive;
+	font-size: 20px;
+}
